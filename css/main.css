@@ -338,7 +338,7 @@ body::before {
 @media screen and (max-width: 998px) {
   .header-main {
     max-width: 375px;
-    margin: 0px;
+    margin: 0px auto;
     margin-top: 10px;
   }
   .row {max-width: 375px;}
