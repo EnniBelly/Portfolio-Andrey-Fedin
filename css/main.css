@@ -326,7 +326,7 @@ body::before {
   align-items: center;
 }
 #lightbox img {
-  width: 56vh;
+  width: 90%;
   max-height: 80%;
   padding: 4px;
   background-color: black;
@@ -394,5 +394,12 @@ body::before {
     color: #F1F2F4;
     font-size: 25px;
   }
+  #lightbox img {
+  width: 56vh;
+  max-height: 80%;
+  padding: 4px;
+  background-color: black;
+  border: 2px solid #FFE071;
+}
 }
 
