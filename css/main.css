@@ -319,3 +319,47 @@ footer {
     max-width: 970px;
   }
 }
+/* ++++++++++++++++++++++++++++++ adaptation ++++++++++++++++++++++ */
+
+@media screen and (max-width: 1200px) {
+  .img_profile {
+  width: 124px;
+  height: 124px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid #FFE071;
+}
+}
+
+@media screen and (max-width: 998px) {
+  .header-main {max-width: 375px;}
+  .row {max-width: 375px;}
+  .footer-main {max-width: 375px;}
+  .img_profile {
+  width: 124px;
+  height: 124px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid #FFE071;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .img_profile {
+  width: 124px;
+  height: 124px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid #FFE071;
+}
+}
+
+@media screen and (max-width: 576px) {
+  .img_profile {
+  width: 124px;
+  height: 124px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid #FFE071;
+}
+}
