@@ -322,7 +322,7 @@ body::before {
   align-items: center;
 }
 #lightbox img {
-  max-width: 90%;
+  width: 56vh;
   max-height: 80%;
   padding: 4px;
   background-color: black;
