@@ -474,8 +474,7 @@ body::before {
     padding: 5px;
   }
   #lightbox img {
-  max-width: 99%;
-  max-height: 89%;
+  max-width: 100%;
   padding: 4px;
   background-color: black;
   border: 2px solid #FFE071;
