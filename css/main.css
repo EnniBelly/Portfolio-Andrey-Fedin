@@ -226,6 +226,7 @@ body::before {
 }
 .skills{
   background-color: #171F26;
+  margin-right: 0px;
 }
 .porfolio:hover {
   background-color: #0C151D;
@@ -338,6 +339,7 @@ body::before {
   .header-main {
     max-width: 375px;
     margin: 0px;
+    margin-top: 10px;
   }
   .row {max-width: 375px;}
   .footer-main {max-width: 375px;}
@@ -380,103 +382,13 @@ body::before {
     transform: scale(1);
   }
   .container_1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.name {
-  color: #F1F2F4;
-  font-size: 25px;
-}
-}
-
-@media screen and (max-width: 768px) {
-  .header-main {max-width: 375px;}
-  .row {max-width: 375px;}
-  .footer-main {max-width: 375px;}
-  .img_profile {
-    width: 124px;
-    height: 124px;
-    overflow: hidden;
-    border-radius: 50%;
-    border: 5px solid #FFE071;
-  }
-  .nav-main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 50px;
-  }
-  .info {
-    position: relative;
-    text-align: center;
-    width: 103px;
-    color: #A3ABB2;
-    font-size: 10px;
-  }
-  .content-2_portfolio {
-    font-size: 15px
   }
   .name {
-    font-size: 29px;
-  }
-  .fa-copyright {
-    font-size: 10px;
-    margin-bottom: 10px;
-  }
-  .content-1_portfolio {
-    width: 310px;
-    height: 180px;
-    border-radius: 10px;
-    padding: 5px;
-  }
-  .content-1_portfolio img:hover {
-    transform: scale(1);
+    color: #F1F2F4;
+    font-size: 25px;
   }
 }
 
-@media screen and (max-width: 576px) {
-  .header-main {max-width: 375px;}
-  .row {max-width: 375px;}
-  .footer-main {max-width: 375px;}
-  .img_profile {
-    width: 124px;
-    height: 124px;
-    overflow: hidden;
-    border-radius: 50%;
-    border: 5px solid #FFE071;
-  }
-  .nav-main {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-  }
-  .info {
-    position: relative;
-    text-align: center;
-    width: 103px;
-    color: #A3ABB2;
-    font-size: 10px;
-  }
-  .content-2_portfolio {
-    font-size: 15px
-  }
-  .name {
-    font-size: 29px;
-  }
-  .fa-copyright {
-    font-size: 10px;
-    margin-bottom: 10px;
-  }
-  .content-1_portfolio {
-    width: 310px;
-    height: 180px;
-    border-radius: 10px;
-    padding: 5px;
-  }
-  #lightbox img {
-  max-width: 100%;
-  padding: 4px;
-  background-color: black;
-  border: 2px solid #FFE071;
-}
-}
